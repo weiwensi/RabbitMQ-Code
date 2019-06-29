@@ -13,7 +13,6 @@
         <module>rabbitmq-send</module>
         <module>rabbitmq-consumer2</module>
         <module>mq-bean</module>
-        <module>mq-bean</module>
     </modules>
     
     <dependencies>
