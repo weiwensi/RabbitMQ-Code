@@ -58,7 +58,7 @@ public class HelloSender {
 
     public   void sendDirect(){
         String  context="66666666666666666666666666666666666666";
-        System.out.println("开始发送消息消息内容："+context);
+        System.out.println("开始发送消息消息内容："+context+"现在的时间是：");
         amqpTemplate.convertAndSend("directExchange","ddddd",context);
     }
 

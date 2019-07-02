@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ca400d03-8a73-44c1-bcdb-b7ee8121b494" name="Default Changelist" comment="" />
+    <list default="true" id="ca400d03-8a73-44c1-bcdb-b7ee8121b494" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendConfirmCallBack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendReturnCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/controller/RabbitMQController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer2/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer2/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-send/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-send/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/rabbitmq-soft/target/" />
@@ -19,19 +28,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/HelloReceiver.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="323">
+              <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/TopicReceiver1.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendReturnCallback.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="187">
+              <caret line="11" column="10" lean-forward="true" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -39,8 +54,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="56" lean-forward="true" selection-end-line="67" />
+            <state relative-caret-position="421">
+              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -59,54 +83,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendConfirmCallBack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="75" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#543#544#0" expanded="true" />
+                <element signature="e#630#631#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/RabbitMqConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+            <state relative-caret-position="258">
+              <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#743#744#0" expanded="true" />
-                <element signature="e#804#805#0" expanded="true" />
-                <element signature="e#693#694#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#802#803#0" expanded="true" />
-                <element signature="e#853#854#0" expanded="true" />
-                <element signature="e#952#953#0" expanded="true" />
-                <element signature="e#1004#1005#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
-                <element signature="e#1542#1543#0" expanded="true" />
-                <element signature="e#1639#1640#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/TopicReceiver2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#937#938#0" expanded="true" />
+                <element signature="e#989#990#0" expanded="true" />
+                <element signature="e#1527#1528#0" expanded="true" />
+                <element signature="e#1624#1625#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,7 +116,7 @@
         <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/RabbitmqConsumer2Application.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#350#351#0" expanded="true" />
@@ -129,21 +129,20 @@
         <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/test/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplicationTests.java">
+        <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1057#1058#0" expanded="true" />
-                <element signature="e#1097#1098#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -165,33 +164,42 @@
       <replace />
     </replaceStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mqcommon/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/HelloReceiver.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer2/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbitmq-send/pom.xml" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/Receiver2.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/HelloReceiver.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/UserListener.java" />
         <option value="$PROJECT_DIR$/mq-bean/src/main/java/com/gysoft/entrity/User.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/TopicReceiver2.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/TopicReceiver2.java" />
         <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitConfig.java" />
         <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitMqTopicConfig.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/TopicReceiver1.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/TopicReceiver1.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/RabbitMqTopicConfig.java" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/RabbitMqTopicConfig.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java" />
-        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java" />
         <option value="$PROJECT_DIR$/rabbitmq-send/src/test/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplicationTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/TopicReceiver2.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/RabbitmqConsumer2Application.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/ack/MsgSendReturnCallback.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/ack/MsgSendConfirmCallBack.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/controller/RabbitMQController.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-send/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendReturnCallback.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendConfirmCallBack.java" />
+        <option value="$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/RabbitMqConfig.java" />
       </list>
     </option>
@@ -216,13 +224,12 @@
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,51 +240,6 @@
             <path>
               <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
               <item name="studyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-consumer1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqconsumer1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmq-consumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="rabbitmqconsumer1" type="462c0819:PsiDirectoryNode" />
-              <item name="receive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq-consumer2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -325,7 +287,8 @@
               <item name="studyparent" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmq-consumer2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
@@ -361,6 +324,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmqsoft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-send" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqsoft" type="462c0819:PsiDirectoryNode" />
+              <item name="ack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-send" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmqsoft" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
@@ -371,6 +354,14 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="rabbitmqsoft" type="462c0819:PsiDirectoryNode" />
               <item name="send" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studyparent" type="462c0819:PsiDirectoryNode" />
+              <item name="rabbitmq-send" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="studyparent" type="b2602c69:ProjectViewProjectNode" />
@@ -400,6 +391,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -411,7 +404,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561776581872" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562038767595" />
     <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_191/bin/jvisualvm.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -563,68 +556,74 @@
       <workItem from="1561543646114" duration="662000" />
       <workItem from="1561595102378" duration="434000" />
       <workItem from="1561595558129" duration="7534000" />
-      <workItem from="1561706448237" duration="9736000" />
+      <workItem from="1561706448237" duration="10478000" />
+      <workItem from="1561941348504" duration="599000" />
+      <workItem from="1561950716998" duration="9948000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RabbitmqSoftApplicationTests_testTopic - 2019.06.28 at 16h 21m 47s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testTopic - 2019.07.01 at 11h 30m 07s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testTopic" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.28 at 16h 34m 52s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.01 at 11h 52m 42s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.28 at 16h 35m 31s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.01 at 11h 53m 47s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.28 at 16h 36m 24s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.01 at 11h 57m 05s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.28 at 16h 46m 48s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.02 at 09h 42m 52s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.28 at 16h 47m 12s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.02 at 09h 46m 14s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.29 at 10h 11m 16s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.02 at 09h 46m 27s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.29 at 10h 20m 43s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.02 at 09h 57m 08s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.29 at 10h 22m 56s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.02 at 09h 57m 49s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.06.29 at 10h 23m 05s.xml">
+    <history-entry file="RabbitmqSoftApplicationTests_testDirect - 2019.07.02 at 09h 59m 08s.xml">
       <configuration name="RabbitmqSoftApplicationTests.testDirect" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20474000" />
+    <option name="totallyTimeSpent" value="31763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="404" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34689507" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35653105" />
       <window_info id="Structure" order="1" side_tool="true" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run with VisualVM" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5005688" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.43117177" />
       <window_info anchor="bottom" id="Debug with VisualVM" order="3" />
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Spring" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4675768" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32992035" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32992035" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32992035" />
       <window_info anchor="bottom" id="Find" order="12" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Ant Build" order="1" />
       <window_info anchor="right" id="BPMNPalette" order="2" />
@@ -654,52 +653,26 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mqcommon/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/mqcommon/src/main/java/com/gysoft/pojo/User.java" />
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/mq-bean/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="30" column="21" lean-forward="true" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -718,7 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/TopicReceiver2.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/1.7.13.RELEASE/spring-amqp-1.7.13.RELEASE.jar!/org/springframework/amqp/core/Queue.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -758,27 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitMqTopicConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#875#876#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#1031#1032#0" expanded="true" />
-            <element signature="e#1083#1084#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitMqTopicConfig.java" />
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/test/java/com/gysoft/rabbitmqconsumer2/RabbitmqConsumer2ApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -793,13 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/RabbitMqTopicConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/receive/RabbitMqTopicConfig.java" />
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer1/src/main/java/com/gysoft/rabbitmqconsumer1/RabbitmqConsumer1Application.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -813,66 +759,6 @@
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/HelloReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#526#527#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/RabbitmqConsumer2Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/test/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="42" column="26" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1097#1098#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="56" lean-forward="true" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -891,10 +777,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/ack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/controller/RabbitMQController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/test/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1048#1049#0" expanded="true" />
+            <element signature="e#1088#1089#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/TopicReceiver2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="207">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#435#436#0" expanded="true" />
@@ -905,24 +843,100 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/RabbitMqConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+        <state relative-caret-position="258">
+          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#693#694#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#802#803#0" expanded="true" />
-            <element signature="e#853#854#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1053#1054#0" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
-            <element signature="e#1542#1543#0" expanded="true" />
-            <element signature="e#1639#1640#0" expanded="true" />
+            <element signature="e#937#938#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1624#1625#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/RabbitmqConsumer2Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/HelloReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" selection-start-line="15" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#470#471#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/RabbitmqSoftApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/send/HelloSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-consumer2/src/main/java/com/gysoft/rabbitmqconsumer2/receive/DirectListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="31" column="65" lean-forward="true" selection-start-line="31" selection-start-column="65" selection-end-line="31" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/config/RabbitConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendReturnCallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="10" lean-forward="true" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq-send/src/main/java/com/gysoft/rabbitmqsoft/ack/MsgSendConfirmCallBack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#543#544#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
           </folding>
         </state>
       </provider>
